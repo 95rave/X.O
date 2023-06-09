@@ -1,0 +1,36 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.game .row {
+  display: flex;
+}
+.game .row .cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.game .row .cell:hover {
+  background-color: #5fcaff;
+}
+
+.cell.x {
+  color: #ff5f5f;
+}
+.cell.o {
+  color: #5fcaff;
+}
+
+.game-message {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #ff5f5f;
+}/*# sourceMappingURL=style.css.map */
