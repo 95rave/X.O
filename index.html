@@ -9,25 +9,30 @@
 </head>
 <body>
     <div class="game">
+      <div class="score">
+        <span id="player1Score">Player 1: 0</span>
+        <span id="player2Score">Player 2: 0</span>
+    </div>
+        <input type="text" id="player1Name" placeholder="Player 1 Name">
+        <input type="text" id="player2Name" placeholder="Player 2 Name">
+        <div class="game-message" id="gameMessage"></div>
         <div class="row">
-          <div class="cell" onclick="makeMove(0, 0)"></div>
-          <div class="cell" onclick="makeMove(0, 1)"></div>
-          <div class="cell" onclick="makeMove(0, 2)"></div>
+            <div class="cell" onclick="makeMove(0, 0)"></div>
+            <div class="cell" onclick="makeMove(0, 1)"></div>
+            <div class="cell" onclick="makeMove(0, 2)"></div>
         </div>
         <div class="row">
-          <div class="cell" onclick="makeMove(1, 0)"></div>
-          <div class="cell" onclick="makeMove(1, 1)"></div>
-          <div class="cell" onclick="makeMove(1, 2)"></div>
+            <div class="cell" onclick="makeMove(1, 0)"></div>
+            <div class="cell" onclick="makeMove(1, 1)"></div>
+            <div class="cell" onclick="makeMove(1, 2)"></div>
         </div>
         <div class="row">
-          <div class="cell" onclick="makeMove(2, 0)"></div>
-          <div class="cell" onclick="makeMove(2, 1)"></div>
-          <div class="cell" onclick="makeMove(2, 2)"></div>
+            <div class="cell" onclick="makeMove(2, 0)"></div>
+            <div class="cell" onclick="makeMove(2, 1)"></div>
+            <div class="cell" onclick="makeMove(2, 2)"></div>
         </div>
-      </div>
+    </div>
 
-
-      <script src="/assest/js/script.js"></script>
+    <script src="/assest/js/script.js"></script>
 </body>
 </html>
-
